@@ -1,0 +1,459 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Be Style</title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/icons.css">
+    <link rel="stylesheet" href="css/style.min.css">
+</head>
+
+<body>
+
+    <div class="wrapper">
+
+        <div class="container">
+            <nav class="nav">
+
+                <div class="nav__menu">
+
+                    <div class="nav__menu-for-mobile">
+                        <div class="logo logo_mobile">
+                            <img src="./img/logomakerwhite.png" alt="">
+                        </div>
+
+                        <a class="burger" href="#"><span id="icoBurger" class="ico-burger"></span></a>
+                    </div>
+
+                    <div class="logo">
+                        <img src="./img/logomaker1.png" alt="">
+                    </div>
+                    <div class="nav__links">
+                        <ul>
+
+                            <li class="nav__links-search">
+                                <form action="#">
+                                    <button class="submit"><span class="ico-search"></span></button>
+                                    <input class="search" type="search">
+
+                                </form>
+                            </li>
+                            <li id="allbtn" class="active nav__links-item">
+                                <a href="" class="nav-link" data-filter="all">
+                                    <img src="./img/all.png" alt="">
+                                    <span>Все</span>
+                                </a>
+                            </li>
+                            <li id="manbtn" class="nav__links-item">
+                                <a href="" class="nav-link" data-filter="man">
+                                    <img src="./img/man11.png" alt="">
+                                    <span>Мужская одежда</span>
+                                </a>
+                            </li>
+                            <li id="woomanbtn" class="nav__links-item">
+                                <a href="" class="nav-link" data-filter="wooman">
+                                    <img src="./img/wooman11.png" alt="">
+                                    <span>Женская одежда</span>
+                                </a>
+                            </li>
+                            <li id="kidbtn" class="nav__links-item">
+                                <a href="" class="nav-link" data-filter="kid">
+                                    <img src="./img/kid11.png" alt="">
+                                    <span>Одежда для детей</span>
+                                </a>
+                            </li>
+                        </ul>
+                        <span class="nav__menu-cart">
+
+                            <span class="ico-shopping-cart"></span>
+                            <span class="cart_counter">0</span>
+                        </span>
+                    </div>
+
+
+                </div>
+            </nav>
+
+            <main class="main">
+                <!-- Main nav start -->
+                <div id="allMainNav" class="main__nav">
+                    <ul class="main__nav-links nav__all">
+                        <li class="active">
+                            <a href="#" data-filter1="all1">
+                                <img src="./img/vse.png" alt="">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" data-filter1="alltop">
+                                <img src="./img/verxnyaya.png" alt="">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" data-filter1="allpants">
+                                <img src="./img/bryuki.png" alt="">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" data-filter1="allshoes">
+                                <img src="./img/obuv.png" alt="">
+                            </a>
+                        </li>
+
+                    </ul>
+                </div>
+                <div id="mainNavMan" class="main__nav">
+                    <ul class="main__nav-links nav__man">
+                        <li class="active">
+                            <a href="#" data-filter2="all2">
+                                <img src="./img/vse.png" alt="">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" data-filter2="mantop">
+                                <img src="./img/mantop.png" alt="">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" data-filter2="manpants">
+                                <img src="./img/pantsman.png" alt="">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" data-filter2="manshoes">
+                                <img src="./img/shoesman.png" alt="">
+                            </a>
+                        </li>
+
+                    </ul>
+                </div>
+                <div id="mainNavWooman" class="main__nav">
+                    <ul class="main__nav-links nav__wooman">
+                        <li class="active">
+                            <a href="#" data-filter3="all3">
+                                <img src="./img/vse.png" alt="">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" data-filter3="woomantop">
+                                <img src="./img/woomantop.png" alt="">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" data-filter3="woomanpants">
+                                <img src="./img/pantswooman.png" alt="">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" data-filter3="woomanshoes">
+                                <img src="./img/shoeswooman.png" alt="">
+                            </a>
+                        </li>
+
+                    </ul>
+                </div>
+                <div id="mainNavKid" class="main__nav">
+                    <ul class="main__nav-links nav__kid">
+                        <li class="active">
+                            <a href="#" data-filter4="all4">
+                                <img src="./img/vse.png" alt="">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" data-filter4="kidtop">
+                                <img src="./img/kidtop.png" alt="">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" data-filter4="kidpants">
+                                <img src="./img/bryuki.png" alt="">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" data-filter4="shoeskid">
+                                <img src="./img/shoeskid.png" alt="">
+                            </a>
+                        </li>
+
+                    </ul>
+                </div>
+
+                <!-- Main nav end -->
+                <div class="main__cards">
+
+                    <div class="card man" data-cat1="alltop" data-cat="man" data-cat2="mantop">
+                        <div class="card__img">
+                            <img class="card__img" src="./img/tshort-min.jpg" alt="">
+                        </div>
+
+                        <div class="card__title">
+                            <h2>Сумка для пикника Oniva Lorem ipsum dolor sit amet consectetur. Lorem ipsum dolor sit
+                                amet.</h2>
+                        </div>
+                        <div class="card__body">
+                            <span class="price">
+                                8500$
+                            </span>
+                            <div class="card__body-icons">
+                                <span class="kart-icon">
+                                    <img src="./img/cart.png" alt="">
+                                </span>
+                                <span class="heart-icon">
+                                    <img src="./img/heart.png" alt="">
+                                </span>
+                            </div>
+                        </div>
+                        <div class="card__footer">
+                            <a class="card__button" href="product.html">Подробнее</a>
+                        </div>
+                    </div>
+                    <div class="card wooman" data-cat1="alltop" data-cat="wooman" data-cat3="woomantop">
+                        <div class="card__img">
+                            <img class="card__img" src="./img/wooman-min.jpg" alt="">
+                        </div>
+
+                        <div class="card__title">
+                            <h2>Сумка для пикника Oniva Lorem ipsum dolor sit amet consectetur. Lorem ipsum dolor sit
+                                amet.</h2>
+                        </div>
+                        <div class="card__body">
+                            <span class="price">
+                                8500$
+                            </span>
+                            <div class="card__body-icons">
+                                <span class="kart-icon">
+                                    <img src="./img/cart.png" alt="">
+                                </span>
+                                <span class="heart-icon">
+                                    <img src="./img/heart.png" alt="">
+                                </span>
+                            </div>
+                        </div>
+                        <div class="card__footer">
+                            <a class="card__button" href="product.html">Подробнее</a>
+                        </div>
+                    </div>
+                    <div class="card kid" data-cat1="alltop" data-cat="kid" data-cat4="kidtop">
+                        <div class="card__img">
+                            <img class="card__img" src="./img/kid-min.jpg" alt="">
+                        </div>
+
+                        <div class="card__title">
+                            <h2>Сумка для пикника Oniva Lorem ipsum dolor sit amet consectetur. Lorem ipsum dolor sit
+                                amet.</h2>
+                        </div>
+                        <div class="card__body">
+                            <span class="price">
+                                8500$
+                            </span>
+                            <div class="card__body-icons">
+                                <span class="kart-icon">
+                                    <img src="./img/cart.png" alt="">
+                                </span>
+                                <span class="heart-icon">
+                                    <img src="./img/heart.png" alt="">
+                                </span>
+                            </div>
+                        </div>
+                        <div class="card__footer">
+                            <a class="card__button" href="product.html">Подробнее</a>
+                        </div>
+                    </div>
+
+
+
+                    <div class="card man" data-cat1="allshoes" data-cat="man" data-cat2="manshoes">
+                        <div class="card__img">
+                            <img class="card__img" src="./img/shoesman1.jpg" alt="">
+                        </div>
+
+                        <div class="card__title">
+                            <h2>Сумка для пикника Oniva Lorem ipsum dolor sit amet consectetur. Lorem ipsum dolor sit
+                                amet.</h2>
+                        </div>
+                        <div class="card__body">
+                            <span class="price">
+                                8500$
+                            </span>
+                            <div class="card__body-icons">
+                                <span class="kart-icon">
+                                    <img src="./img/cart.png" alt="">
+                                </span>
+                                <span class="heart-icon">
+                                    <img src="./img/heart.png" alt="">
+                                </span>
+                            </div>
+                        </div>
+                        <div class="card__footer">
+                            <a class="card__button" href="product.html">Подробнее</a>
+                        </div>
+                    </div>
+                    <div class="card man" data-cat1="allpants" data-cat="man" data-cat2="manpants">
+                        <div class="card__img">
+                            <img class="card__img" src="./img/pantsman1.jpg" alt="">
+                        </div>
+
+                        <div class="card__title">
+                            <h2>Сумка для пикника Oniva Lorem ipsum dolor sit amet consectetur. Lorem ipsum dolor sit
+                                amet.</h2>
+                        </div>
+                        <div class="card__body">
+                            <span class="price">
+                                8500$
+                            </span>
+                            <div class="card__body-icons">
+                                <span class="kart-icon">
+                                    <img src="./img/cart.png" alt="">
+                                </span>
+                                <span class="heart-icon">
+                                    <img src="./img/heart.png" alt="">
+                                </span>
+                            </div>
+                        </div>
+                        <div class="card__footer">
+                            <a class="card__button" href="product.html">Подробнее</a>
+                        </div>
+                    </div>
+                    <div class="card wooman" data-cat1="allshoes" data-cat="wooman" data-cat3="woomanshoes">
+                        <div class="card__img">
+                            <img class="card__img" src="./img/redshoes.jpg" alt="">
+                        </div>
+
+                        <div class="card__title">
+                            <h2>Сумка для пикника Oniva Lorem ipsum dolor sit amet consectetur. Lorem ipsum dolor sit
+                                amet.</h2>
+                        </div>
+                        <div class="card__body">
+                            <span class="price">
+                                8500$
+                            </span>
+                            <div class="card__body-icons">
+                                <span class="kart-icon">
+                                    <img src="./img/cart.png" alt="">
+                                </span>
+                                <span class="heart-icon">
+                                    <img src="./img/heart.png" alt="">
+                                </span>
+                            </div>
+                        </div>
+                        <div class="card__footer">
+                            <a class="card__button" href="product.html">Подробнее</a>
+                        </div>
+                    </div>
+                    <div class="card wooman" data-cat1="allpants" data-cat="wooman" data-cat3="woomanpants">
+                        <div class="card__img">
+                            <img class="card__img" src="./img/pantswooman1.jpg" alt="">
+                        </div>
+
+                        <div class="card__title">
+                            <h2>Сумка для пикника Oniva Lorem ipsum dolor sit amet consectetur. Lorem ipsum dolor sit
+                                amet.</h2>
+                        </div>
+                        <div class="card__body">
+                            <span class="price">
+                                8500$
+                            </span>
+                            <div class="card__body-icons">
+                                <span class="kart-icon">
+                                    <img src="./img/cart.png" alt="">
+                                </span>
+                                <span class="heart-icon">
+                                    <img src="./img/heart.png" alt="">
+                                </span>
+                            </div>
+                        </div>
+                        <div class="card__footer">
+                            <a class="card__button" href="product.html">Подробнее</a>
+                        </div>
+                    </div>
+                    <div class="card kid" data-cat1="allshoes" data-cat="kid" data-cat4="shoeskid">
+                        <div class="card__img">
+                            <img class="card__img" src="./img/shoeskid1.jpg" alt="">
+                        </div>
+
+                        <div class="card__title">
+                            <h2>Сумка для пикника Oniva Lorem ipsum dolor sit amet consectetur. Lorem ipsum dolor sit
+                                amet.</h2>
+                        </div>
+                        <div class="card__body">
+                            <span class="price">
+                                8500$
+                            </span>
+                            <div class="card__body-icons">
+                                <span class="kart-icon">
+                                    <img src="./img/cart.png" alt="">
+                                </span>
+                                <span class="heart-icon">
+                                    <img src="./img/heart.png" alt="">
+                                </span>
+                            </div>
+                        </div>
+                        <div class="card__footer">
+                            <a class="card__button" href="product.html">Подробнее</a>
+                        </div>
+                    </div>
+
+                    <div class="card kid" data-cat1="allpants" data-cat="kid" data-cat4="kidpants">
+                        <div class="card__img">
+                            <img class="card__img" src="./img/pantskid1.jpg" alt="">
+                        </div>
+
+                        <div class="card__title">
+                            <h2>Сумка для пикника Oniva Lorem ipsum dolor sit amet consectetur. Lorem ipsum dolor sit
+                                amet.</h2>
+                        </div>
+                        <div class="card__body">
+                            <span class="price">
+                                8500$
+                            </span>
+                            <div class="card__body-icons">
+                                <span class="kart-icon">
+                                    <img src="./img/cart.png" alt="">
+                                </span>
+                                <span class="heart-icon">
+                                    <img src="./img/heart.png" alt="">
+                                </span>
+                            </div>
+                        </div>
+                        <div class="card__footer">
+                            <a class="card__button" href="product.html">Подробнее</a>
+                        </div>
+                    </div>
+
+
+
+                </div>
+
+            </main>
+        </div>
+
+
+    </div>
+
+
+
+
+    <footer class="footer">
+        <div class="footer__container">
+
+            <div class="footer__socials">
+                <span class="ico-instagram"></span>
+                <span class="ico-vk"></span>
+                <span class="ico-facebook"></span>
+            </div>
+
+            <div class="footer__copyright">
+                &copy;<span>2020</span> <span>All right reserved</span>
+            </div>
+
+        </div>
+    </footer>
+
+
+    <script src="js/jquery-3.5.1.min.js"></script>
+    <script src="js/script.min.js"></script>
+
+</body>
+
+</html>
